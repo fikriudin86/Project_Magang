@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# File hasil laporan
+laporan/
+*.xlsx
+*.csv
+
+# Hasil training YOLO
+runs/
+*.pt
+
+# Dataset besar
+plat_dataset/
+*.zip
+
+# File sementara
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Database lokal yang dapat berisi data operasional
+parkir_db.sql
+import_lokasi_layanan.sql
+migrasi
